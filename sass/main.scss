@@ -1,0 +1,7 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+@import "var.scss";
+body {
+  background: $body_bg;
+}
