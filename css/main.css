@@ -13223,6 +13223,14 @@ footer .footer_child .footer_img {
     height: 100%;
   }
 }
+li:hover {
+  opacity: 0.3;
+}
+
+.read_more:hover {
+  opacity: 0.3;
+}
+
 body {
   background: #fff;
   font-family: "Sofia", sans-serif;
